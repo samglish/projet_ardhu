@@ -68,13 +68,12 @@ if(isset($_SESSION['id']) && $_SESSION['username'] != "") {
           <div id="Accueil">
           </br></br></br></br></br></br>
             <h1>
-            <a href=""><img src="images/folder1.png" />2025</a>
-            <a href=""><img src="images/folder1.png" />2024</a>
-            <a href=""><img src="images/folder1.png" />2023</a>
-            <a href=""><img src="images/folder1.png" />2022</a>
-            <a href=""><img src="images/folder1.png" />2021</a>  
-            <a href=""><img src="images/folder1.png" />2020</a>
-            <a href=""> <img src="images/folder1.png" />2019</a>
+          
+----------------------
+
+
+
+
           </h1>
           </br></br>
         </br></br>
