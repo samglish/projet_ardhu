@@ -1,3 +1,3 @@
 # Projet Cloud ONG (X)
 
-<img src="">
+<img src="fig1.png" width="100%">
