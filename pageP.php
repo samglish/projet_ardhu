@@ -22,7 +22,7 @@ if(isset($_SESSION['id']) && $_SESSION['username'] != "") {
     <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-service.js"></script>
     <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-ui.js"></script>
     <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js"></script>
-            <style>
+        <style>
 #Accueil {
   padding: 2em;
 
@@ -48,7 +48,7 @@ if(isset($_SESSION['id']) && $_SESSION['username'] != "") {
   align-items: center;
   text-decoration: none;
   background-color: #fff;
-  padding: 7rem;
+  padding: 8rem;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   transition: transform 0.2s;
@@ -69,7 +69,7 @@ if(isset($_SESSION['id']) && $_SESSION['username'] != "") {
 .year-folder a {
   color: #333;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
 }
 
 /* Responsive */
@@ -111,11 +111,11 @@ if(isset($_SESSION['id']) && $_SESSION['username'] != "") {
           </div>
 
           <div class="user" id="user">
-          <a href="logout.php"><h2>⏻</h2></a>
-            <a href="login.php" class="user-link"> <?php echo $_SESSION['username'] ?></a> &nbsp;
+            <a href="login.php" class="user-link"> <?php echo $_SESSION['username'] ?> </a>
             <div class="user-img-wrapper">
               <a href="connexion.html"><img src="images/logonew.png" alt="User 1" /></a> 
             </div>
+           &nbsp;&nbsp;&nbsp; <a href="logout.php">logout</a>
           </div>
         </nav>
         <!-- end of feeds navigation -->
@@ -123,50 +123,38 @@ if(isset($_SESSION['id']) && $_SESSION['username'] != "") {
         <section class="page-content">
         <article class="header">
         <center>
-        <h1>Documents 2023</h1> </br></br></center>
+        <h1>Projets</h1> </br></center>
           </article>
      </div>
         </section>
-      <div id="Accueil" class="year-folder">
-      <a href="page23_AGR.php">
-    <img src="images/folder1_AGR.png" alt="" />
-    <span>AGR_PE 2023</span>
+          <div id="Accueil" class="year-folder">
+  <a href="pageP_PC24.php">
+    <img src="images/folder1_PC2024.png" alt="" />
+    <span>PARC CAMEROUN 2024</span>
   </a>
-   <a href="page23_COM.php">
-    <img src="images/folder1_COM.png" alt="" />
-    <span>COMMUNICATION 2023</span>
+  <a href="pageP_CF4.php">
+    <img src="images/folder1_CF2024.png" alt="" />
+    <span>CERF 2024</span>
   </a>
-  <a href="page23_F.php">
-    <img src="images/folder1_F.png" alt="" />
-    <span>FINANCE 2023</span>
+   <a href="pageP_IC4.php">
+    <img src="images/folder1_ICVA4.png" alt="" />
+    <span>ICVA 2024</span>
   </a>
-    <a href="page23_LTP.php">
-    <img src="images/folder1_LTP.png" alt="" />
-    <span>LOGEMENT-TERRE ET PROPRIETE 2023</span>
-  </a> 
-   <a href="page23_PCS.php">
-    <img src="images/folder1_PCS.png" alt="" />
-    <span>PAIX ET COHESION SOCIALE 2023</span>
+  <a href="pageP_IC5.php">
+    <img src="images/folder1_ICVA5.png" alt="" />
+    <span>ICVA 2025</span>
   </a>
-   <a href="page23_PE.php">
-    <img src="images/folder1_PE.png" alt="" />
-    <span>PROTECTION DE L'ENFANCE 2023</span>
+   <a href="pageP_CF5.php">
+    <img src="images/folder1_CF2025.png" alt="" />
+    <span>CERF 2025</span>
   </a>
-  <a href="page23_PG.php">
-    <img src="images/folder1_PG.png" alt="" />
-    <span>PROTECTION GENERALE 2023</span>
-  </a>
-   <a href="page23_SM.php">
-    <img src="images/folder1_SM.png" alt="" />
-    <span>SANTE MENTALE 2023</span>
-  </a>
-  <a href="page23_VBG.php">
-    <img src="images/folder1_VBG.png" alt="" />
-    <span>VBG/PEAS 2023</span>
+   <a href="pageP_PC25.php">
+    <img src="images/folder1_PC2025.png" alt="" />
+    <span>PARC CAMEROUN 2025</span>
   </a>
 </div>
-
       </main>
+   
     <script>
       const menuLinks = document.querySelectorAll(".sidebar .menu a");
 
