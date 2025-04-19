@@ -1,9 +1,9 @@
 <?php 
 // DB credentials.
 define('DB_HOST','localhost');
-define('DB_USER','samglish');
-define('DB_PASS','1234');
-define('DB_NAME','db_maroua');
+define('DB_USER','clouda8989_ardhu');
+define('DB_PASS','CloudArdhu2025');
+define('DB_NAME','clouda8989_dbArdhu');
 // Establish database connection.
 try
 {
